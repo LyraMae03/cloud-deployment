@@ -1,4 +1,95 @@
-<h1>My First Cloud Deployment</h1>
-<h2>Hello, my name is Lyra Mae G. Borling</h2>
-<img src="PIC.png" width="200" />
-<p>This is my first deployed website!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lyra Mae G. Borling | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Lyra Mae</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm</h2>
+    <h1>Lyra Mae G. Borling</h1>
+    <p>Student & Web Developer</p>
+    <button onclick="scrollToSection('contact')">Hire Me</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Student and Web Developer with a strong interest in building
+      modern, responsive, and user-friendly web applications. I enjoy turning ideas
+      into functional websites using clean code and best practices. I am continuously
+      learning new technologies to improve my skills and create efficient digital
+      solutions.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>PHP</span>
+      <span>MySQL</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Web-based system built using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Dynamic website with backend integration using PHP and MySQL.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>React-based frontend application with modern UI design.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:lyraborling03@gmail.com">lyraborling03@gmail.com</a></p>
+
+    <!-- GitHub: add your link here -->
+    <!-- <p>GitHub: https://github.com/yourusername</p> -->
+  </section>
+
+  <footer>
+    <p>© 2025 Lyra Mae G. Borling. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
